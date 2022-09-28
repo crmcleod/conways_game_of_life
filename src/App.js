@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import GridContainer from './Grid/GridContainer';
+import { useState } from 'react'
 
 function App() {
+  const [blankGrid, setBlankGrid] = useState(
+    [...Array(25)].map(_ => [...Array(25)].map(x => { return 0 }))
+  )
+  const [startingGrid, setStartingGrid] = useState(
+    (JSON.parse(JSON.stringify(blankGrid)))
+  )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GridContainer setStartingGrid={setStartingGrid} startingGrid={startingGrid} blankGrid={blankGrid} />
     </div>
   );
 }
