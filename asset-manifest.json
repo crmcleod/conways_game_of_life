@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/conwaysGoL/static/css/main.b56d7a4c.css",
+    "main.js": "/conwaysGoL/static/js/main.2e0b74bf.js",
+    "static/js/787.7ebe7c37.chunk.js": "/conwaysGoL/static/js/787.7ebe7c37.chunk.js",
+    "index.html": "/conwaysGoL/index.html",
+    "main.b56d7a4c.css.map": "/conwaysGoL/static/css/main.b56d7a4c.css.map",
+    "main.2e0b74bf.js.map": "/conwaysGoL/static/js/main.2e0b74bf.js.map",
+    "787.7ebe7c37.chunk.js.map": "/conwaysGoL/static/js/787.7ebe7c37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b56d7a4c.css",
+    "static/js/main.2e0b74bf.js"
+  ]
+}
